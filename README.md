@@ -8,3 +8,6 @@ Features: math score, reading score
 Target: test preparation course (0 = None, 1 = Completed)
 Techniques: Logistic Regression, StandardScaler, Train/Test split, Accuracy evaluation, Decision boundary visualization
 Result: Achieved ~63% accuracy using only two features.
+
+Project no3-
+Built a small ML project that uses Navier_bayes theorrem to clasify spam messages. The data set has been adapted through 
