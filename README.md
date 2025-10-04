@@ -10,4 +10,4 @@ Techniques: Logistic Regression, StandardScaler, Train/Test split, Accuracy eval
 Result: Achieved ~63% accuracy using only two features.
 
 Project no3-
-Built a small ML project that uses Navier_bayes theorrem to clasify spam messages. The data set has been adapted through 
+Built a small ML project that uses Navier_bayes theorrem to clasify spam messages. The data set has been adapted through kagle datasets
