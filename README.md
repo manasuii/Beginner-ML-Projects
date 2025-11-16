@@ -14,3 +14,5 @@ Built a small ML project that uses Navier_bayes theorrem to clasify spam message
 
 Project no4-
 Built a Breast cancer benign vs malignant clasfier by deploying a simple neural network.
+
+Project no5-Deepleanring project to classify images based on the presence or absence of face mask
