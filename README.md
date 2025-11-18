@@ -1,18 +1,88 @@
-# Beginner-ML-Projects
-Project no 1-
-Built a small ML project to predict student placement using Logistic Regression, based on CGPA and IQ. Implemented data preprocessing, train-test split, feature scaling, model training, evaluation, and visualized decision boundaries. The model was saved and deployed as a web app using Streamlit.
-Project no 2-
-This is a small machine learning project aimed at predicting whether a student has completed a test preparation course based on their math and reading scores.
+🚀 Beginner ML Projects
+
+A collection of beginner-friendly Machine Learning and Deep Learning projects I built while learning core ML concepts, algorithms, and deployment workflows. Each project includes data preprocessing, model training, evaluation, and in some cases, deployment.
+
+📌 Project 1 — Student Placement Prediction (Logistic Regression)
+
+Goal: Predict whether a student gets placed based on CGPA and IQ.
+Techniques Used:
+
+Data preprocessing
+
+Train–test split
+
+Feature scaling
+
+Logistic Regression
+
+Decision boundary visualization
+
+Model saving
+
+Deployment using Streamlit
+
+📌 Project 2 — Test Preparation Course Completion Prediction
+
 Dataset: StudentsPerformance.csv (Kaggle)
-Features: math score, reading score
-Target: test preparation course (0 = None, 1 = Completed)
-Techniques: Logistic Regression, StandardScaler, Train/Test split, Accuracy evaluation, Decision boundary visualization
-Result: Achieved ~63% accuracy using only two features.
+Features: Math score, Reading score
+Target: Test preparation course
 
-Project no3-
-Built a small ML project that uses Navier_bayes theorrem to clasify spam messages. The data set has been adapted through kagle datasets
+0 → Not completed
 
-Project no4-
-Built a Breast cancer benign vs malignant clasfier by deploying a simple neural network.
+1 → Completed
 
-Project no5-Deepleanring project to classify images based on the presence or absence of face mask
+Techniques Used:
+
+Logistic Regression
+
+StandardScaler
+
+Train/Test split
+
+Decision boundary visualization
+
+Model evaluation
+
+Result: Achieved ~63% accuracy using only two numerical features.
+
+📌 Project 3 — Spam Message Classification (Naive Bayes)
+
+Built a text classification model using Naive Bayes to classify SMS messages as spam or ham.
+Dataset: Adapted from Kaggle SMS Spam Collection.
+Pipeline includes:
+
+Text preprocessing (cleaning, tokenization, stopwords removal)
+
+TF-IDF vectorization
+
+Naive Bayes training
+
+Evaluation metrics
+
+📌 Project 4 — Breast Cancer Classification (Neural Network)
+
+A binary classifier built using a simple Artificial Neural Network (ANN) to detect whether breast cancer is benign or malignant.
+Includes:
+
+Feature scaling
+
+Model building using deep learning
+
+Train/validation split
+
+Accuracy evaluation
+
+📌 Project 5 — Face Mask Detection (Deep Learning)
+
+Built a deep learning image classifier to detect the presence or absence of a face mask.
+Includes:
+
+Image preprocessing
+
+CNN model development
+
+Data augmentation
+
+Training & validation
+
+Performance evaluation
