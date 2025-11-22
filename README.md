@@ -86,3 +86,23 @@ Data augmentation
 Training & validation
 
 Performance evaluation
+
+📌 Project 6 — PINN Ball Trajectory Prediction (Physics-Informed Neural Network)
+
+Goal: Predict the trajectory of a falling ball using a Physics-Informed Neural Network (PINN) that incorporates both data and the underlying physics (gravity) into training.
+
+Techniques Used:
+
+Data preprocessing and noisy observation handling
+
+Neural network model building with input t and output h(t)
+
+Physics-informed loss function incorporating the ODE: h''(t) = -g
+
+Training using PyTorch with automatic differentiation
+
+Model evaluation by comparing predicted trajectory to the exact solution
+
+Visualization of results showing noisy data, exact solution, and PINN predictions
+
+Result: Successfully learned a parabolic trajectory consistent with the physics of free fall, demonstrating the capability of PINNs to combine data and physical laws in predictive modeling.
